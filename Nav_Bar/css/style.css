@@ -1,0 +1,19 @@
+body    {
+    background-color: lightblue; 
+    height: 1500px;
+    
+} 
+li {
+display:inline;
+}
+nav{
+    position:sticky;
+    top:0;
+    background-color: rgb(228, 184, 133);
+    padding: 20px;
+    
+
+}
+a   {text-decoration: none;
+color:aliceblue
+}
