@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+.content {
+    border: 2px solid salmon;
+    padding: 200px;
+     box-shadow: 4px 4px 4px 0px;
+    background-color: white;
+}
+main {
+    background-color:white ;
+}
+main h2 {
+    color: salmon;
+}
+hr {
+    border-color: black;
+}
+figure {
+    float: left;
+    margin-bottom: 26px;
+    width: 40pc;
+}
+figure img {
+    width: 350px;
+}
+nav {
+
+}
+
+footer {
+
+}
