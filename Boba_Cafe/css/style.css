@@ -1,14 +1,37 @@
 nav {
     
+    padding: 1px;
     position: sticky;
     top: 0;
-    margin: 0px;
-    background-color: salmon;
-    padding-right: 10px;
-    border: 15px;
+    margin: 10px;
+    background-color: rgb(56, 201, 187);
+}
+
+img {
+    padding-left: 35px;
+width: 5in;
+}
+ul {
+    display:flex;
+}
+li {
+    list-style: none;
+}
+.btn {
+    color: aliceblue;
+    border: 2px;
+    padding: 1em;
+    transition: 0.35s;
+    text-decoration: black;
 }
 body {
     background-color: rgb(233, 209, 177);
-    margin:0px
-
+    margin:0px;
+}
+img {
+    width: 300px;
+    grid-column-start: hori;
+}
+#Container {
+    display:flex;
 }
