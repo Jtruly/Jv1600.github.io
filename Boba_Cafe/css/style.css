@@ -1,9 +1,5 @@
 nav {
-    
-    padding: 1px;
-    position: sticky;
-    top: 0;
-    margin: 10px;
+    padding: 5px;
     background-color: rgb(56, 201, 187);
 }
 
@@ -11,6 +7,12 @@ img {
     padding-left: 35px;
 width: 5in;
 }
+btn:hover {
+    color: black;
+}
+    .btn:hover{
+     color: black;
+    }
 ul {
     display:flex;
 }
@@ -18,14 +20,16 @@ li {
     list-style: none;
 }
 .btn {
-    color: aliceblue;
+    
+    color: white;
     border: 2px;
     padding: 1em;
     transition: 0.35s;
     text-decoration: black;
 }
-body {
-    background-color: rgb(233, 209, 177);
+
+.body {
+    background-color: rgb(235, 209, 175);
     margin:0px;
 }
 img {
@@ -35,3 +39,24 @@ img {
 #Container {
     display:flex;
 }
+.dropdown-menu {
+position: absolute;
+opacity: 0;
+z-index: 99;
+color: black;
+}
+.drop-down:hover .dropdown-menu {
+opacity: 1;
+display: flexbox;
+background-color: blanchedalmond;
+padding: 20px;
+}
+a {
+    color: black;
+    margin: 10px;
+}
+a:hover {
+    color: grey;
+}
+
+@media all and (max-width: 500px) 
