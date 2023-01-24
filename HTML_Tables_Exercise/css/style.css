@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    padding: 12px;
+    border: 1px ;
+    color: black;
+}
+ td {
+border: 1px;
+color: black;
+}
+td:hover {
+background-color: rgb(229, 226, 226);
+color: rgb(43, 198, 146);
+}
+tr:nth-child(2) {
+    background-color: rgb(197, 194, 194);
+}
+tr,
+td {
+    padding: 20px;
+}
+thead, 
+tfoot {
+    background-color: rgb(5, 205, 162);
+    color: rgb(255, 254, 254);
+    
+}
