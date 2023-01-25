@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+li {
+    padding: 10px;
+     list-style: none;
+}
+a {
+    color: black;
+}
+#siteGrid {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-template-areas: 
+    "navArea navArea navArea"
+    ". galleryArea ."
+    ;
+}
+nav {
+    grid-area: navArea;
+}
+#galleries {
+grid-area: galleryArea;
+text-align: center;
+}
+#gallery1, #galler2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery2 img{
+    width: 250px;
+    height: 250px;
+}
