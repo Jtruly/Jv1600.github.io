@@ -1,15 +1,46 @@
 body {
-    border:10px;
+    background-color: rgb(233, 235, 237);
 }
 #Send {
-    color: black;
-    background-color: rgb(45, 153, 236);
+    color: white;
+    background-color: rgb(9, 124, 255);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
+}
+#Select {
+    width: 500px;
+    padding: 5px;
 }
 #Message {
-padding: 100px;
+padding: 150px;
+width: 200px;
+}
+#Name {
+    width: 485px;
+    padding: 5px;
+}
+#Email {
+    width: 485px;
+    padding: 5px;
 }
 form {
-    border: 10px;
+border: 1px solid rgb(158, 155, 155) ;
+padding: 75px;
+background-color: rgb(255, 255, 255);
+}
+div {
+    display: flex; justify-content: center;
+    max-width: 6000px;
+}
+#Contact {
+    display: flex; justify-content: center;
+}
+#Prgph1 {
+    display: flex; justify-content: center;
+}
+input[type="text"]:invalid {
+   solid:2px green;
+}
+input[type="text"]:invalid {
+    solid:2px red;
 }

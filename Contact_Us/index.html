@@ -3,32 +3,42 @@
     <head> 
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        
+        <link rel="stylesheet" href="style.vaid">
+        <link rel="stylesheet" href="invalid">
         <link rel="stylesheet" href="css/style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Contact Us</title>
     </head>
     <body>
-        <h1>Contact Us</h1>
-        <p>
+        <h1 id="Contact">Contact Us</h1>
+        <p id="Prgph1">
             Got a question? We'd love to hear from you. send us a message and we'll respond as soon as possible.
         </p>
-<form>
+        <div>
+<form class="Formula">
+    <!-- Select -->
     <p>What can we help you with?</p>
-<input type="text" placeaholder="What can we help you with">
+<select name="" id="Select">
+    <option value="">What can we help you with?</option>
+    <option value="">Emergency</option>
+    <option value="">Error</option>
+    <option value="">Customer Service</option>
+</select>
 <!-- Name -->
 <p>Name</p>
-<input type="text">
+<input type="text" id="Name" id="name" label="name">
 <!-- Email -->
 <p>Email</p>
-<input type="email" name="" id="">
+<input type="email" name="Email" id="Email" label="email">
+
 <!-- Message -->
 <p>Message</p>
-<input type="text" name="" id="Message">
+<input type="text" name="" id="Message" label="message">
 <br>
 <br>
 <!-- Send Button -->
-<input type="button" value="Send" id="Send">
+<input type="button" value="Send" id="Send" label="send">
 </form>
+</div>
     </body>
 </html>
 	◦	
