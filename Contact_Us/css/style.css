@@ -4,7 +4,8 @@ body {
 #Send {
     color: white;
     background-color: rgb(9, 124, 255);
-    padding: 5px;
+    padding: 12px;
+    width: 75px;
     border-radius: 3px;
 }
 #Select {
@@ -38,9 +39,15 @@ div {
 #Prgph1 {
     display: flex; justify-content: center;
 }
-input[type="text"]:invalid {
-   solid:2px green;
+input[type="text"]:valid {
+ border: solid 2px green;
 }
 input[type="text"]:invalid {
-    solid:2px red;
+   border: solid 2px red;
 }
+input[type="email"]:valid {
+    border: solid 2px green;
+   }
+   input[type="email"]:invalid {
+      border: solid 2px red;
+   }

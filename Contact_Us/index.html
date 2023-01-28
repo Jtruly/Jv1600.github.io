@@ -3,8 +3,6 @@
     <head> 
         <meta charset="UTF-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <link rel="stylesheet" href="style.vaid">
-        <link rel="stylesheet" href="invalid">
         <link rel="stylesheet" href="css/style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Contact Us</title>
     </head>
@@ -14,7 +12,7 @@
             Got a question? We'd love to hear from you. send us a message and we'll respond as soon as possible.
         </p>
         <div>
-<form class="Formula">
+<form class="Formula" action="https://getform.io/f/87ed73ab-cbf2-4b6b-b277-6a3d7b79409c" method="post">
     <!-- Select -->
     <p>What can we help you with?</p>
 <select name="" id="Select">
@@ -25,18 +23,18 @@
 </select>
 <!-- Name -->
 <p>Name</p>
-<input type="text" id="Name" id="name" label="name">
+<input type="text" id="Name" id="name" label="name" minlength="3" maxlength="30"required="none">
 <!-- Email -->
 <p>Email</p>
-<input type="email" name="Email" id="Email" label="email">
+<input type="email" name="Email" id="Email" label="email" minlength="10" maxlength="50" required>
 
 <!-- Message -->
 <p>Message</p>
-<input type="text" name="" id="Message" label="message">
+<input type="text" name="" id="Message" label="message" minlength="10" maxlength="250" required=".">
 <br>
 <br>
 <!-- Send Button -->
-<input type="button" value="Send" id="Send" label="send">
+<input type="submit" value="Send" id="Send" label="send">
 </form>
 </div>
     </body>
