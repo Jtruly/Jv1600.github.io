@@ -1,0 +1,21 @@
+.site-hero {
+    background-image: url("../assets/branding/wood_bkgrnd.jpg") ;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h2 {
+    margin: 0;
+    font-size: 2cm;
+  color: aliceblue;
+}
+.hero-text {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: aliceblue;
+    text-shadow:10px 5px 5px rgb(7, 141, 154); ;
+}
