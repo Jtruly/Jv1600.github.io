@@ -17,5 +17,17 @@
     font-weight: bold;
     font-style: italic;
     color: aliceblue;
-    text-shadow:10px 5px 5px rgb(7, 141, 154); ;
+    text-shadow:10px 5px 5px rgb(0, 234, 255) ;
+}
+#row1 {
+    display: grid;
+    grid-template-columns: 1px 1fr 1fr;
+}
+#row2 {
+    display: grid;
+    grid-template-columns: 1px 1fr 1px ;
+}
+#row3 {
+    display: grid;
+    grid-template-columns: 1px 1fr 1px;
 }
