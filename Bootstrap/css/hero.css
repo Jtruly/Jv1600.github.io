@@ -32,8 +32,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .carousel-item {
-height: 60vh;
-width: 60vh;
+height: 50vh;
 }
 img {
     height: 100%;
