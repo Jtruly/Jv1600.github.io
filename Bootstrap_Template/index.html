@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="icon" href="./assets/branding/first_code.svg">
     <!-- Site tyle, do not edit style.css -->
     <link rel="stylesheet" href="./css/style.css">
@@ -41,10 +42,17 @@
       <!-- HERO CSS GOES HERE -->
     </section>
     <!-- DAY 1 STOP HERE -->
+    <div>
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+         Collapse
+        </a>
+      </p>
+    </div>
     <main>
   <!-- img 1 -->
   <section>
-  <div class="container text-center">
+  <div class="container collapse text-center" id="collapseExample">
     <div id="row1">
       <div id="col-gap-1">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYACIz-p85Ot2WUjIJXZNVFMS6J7_nV6kM6Q&usqp=CAU" alt="">
@@ -86,6 +94,28 @@
       </div> 
     </section>
     </div>
+  </div>
+  <!-- Slideshow -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsJTZDFFK4_bqTW-n4F8ACytq4AhE56B7jQ&usqp=CAU" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIUKNBinzxAcLoPIupsgcaEBzBu8VlPRzug&usqp=CAU" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRESJEBwtvY0hxpkYhG96s_b5LuxSwoyZ7QzA&usqp=CAU" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
     <!-- General content cards: -->
 
@@ -141,7 +171,7 @@
       <p>MadeByParry @ FIRST Institute - 2022</p>
       <a href="https://github.com/nicholasparryfirst/nicholasparryfirst.github.io"><p>MBP Educational Network on GitHub</p></a>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
