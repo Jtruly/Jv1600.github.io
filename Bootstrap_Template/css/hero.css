@@ -21,13 +21,20 @@
 }
 #row1 {
     display: grid;
-    grid-template-columns: 1px 1fr 1fr;
+    grid-template-columns: 0.5cm  1fr;
 }
 #row2 {
     display: grid;
-    grid-template-columns: 1px 1fr 1px ;
+    grid-template-columns: 1fr 1fr 0.5fr ;
 }
 #row3 {
     display: grid;
-    grid-template-columns: 1px 1fr 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.carousel-item {
+height: 60vh;
+width: 60vh;
+}
+img {
+    height: 100%;
 }
