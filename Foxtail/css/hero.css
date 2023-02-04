@@ -9,7 +9,7 @@
 .hero-text h2 {
     margin: 0;
     font-size: 2cm;
-  color: aliceblue;
+  color: #e1a177;
   text-shadow: 10px 5px 5px black;
 }
 .hero-text {
@@ -18,25 +18,22 @@
     font-weight: bold;
     font-style: italic;
     color: aliceblue;
+    text-shadow: 10px 5px 5px black;
+}
+.row {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
 
-}
-#row1 {
-    display: grid;
-    grid-template-columns: 0.5cm  1fr;
-}
-#row2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr ;
-}
-#row3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 .carousel-item {
 height: 50vh;
 }
+. {
+
+}
 img {
     height: 100%;
+    object-fit: cover
 }
 .btn-primary :hover {
 color: white;
@@ -45,5 +42,4 @@ color: white;
 color: #e1a177;
 background-color: black;
 padding: 1px;
-
 }
