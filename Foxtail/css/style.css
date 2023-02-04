@@ -10,7 +10,7 @@ body, main, footer, nav, header {
   font-family: "Open Sans";
 }
 a {
-  color:#192e55;
+  color:#e1a177;
 }
 .btn {
   background-color: #f8feff;
@@ -22,25 +22,25 @@ a {
 
 body {
   margin:0;
-  color:#2e4c83;
-  border-color: #2e4c83;
+  color:black;
+  border-color: black;
 }
 
 header {
-  border-bottom: 2px solid #2e4c83;
+  border-bottom: 2px solid black;
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#f8feff;
-  color:#2e4c83;
+  background-color:black;
+  color:white;
 }
 .header-top{
   width:15%;
 }
 nav {
-  border-bottom: 2px solid #2e4c83;
-  background-color:#f8feff;
+  border-bottom: 2px solid #e1a177;
+  background-color: #e1a177;
   position:sticky;
   top:0px;
   box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
@@ -60,7 +60,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#192e55;
+  color: black;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
@@ -71,8 +71,8 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
-  color:#f8feff;
+  background-color: black;
+  color: white;
 }
 .nav-contact {
   display:flex;
@@ -82,7 +82,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#192e55;
+  color:black;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -109,7 +109,7 @@ nav a:hover {
   margin:0px;
 }
 #site_logo:hover,.site_title:hover,.site_quote:hover {
-  color:#192e55;
+  color:black;
   cursor:pointer;
 }
 
@@ -122,10 +122,10 @@ main {
 /* contents: */
 
 .content {
-  background-color: #f8feff;
-  border:2px solid #2e4c83;
+  background-color: black;
+  border:2px solid black;
   padding:15px;
-  color:#2e4c83;
+  color: #e1a177;
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
   margin:50px 0px;
 }
@@ -139,7 +139,7 @@ main {
   font-weight: bold;
 }
 .content-subhead {
-  border-bottom: 1px solid #2e4c83;
+  border-bottom: 1px solid black;
   margin:0;
   text-align: center;
   margin-bottom:25px;
@@ -156,15 +156,16 @@ main {
 /* Footer ~~~~~~~ */
 .footer-hat {
   height:30px;
-  background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  background-color: #e1a177;
+  border-top:2px solid black;
 }
 footer {
-  background-color: #f8feff;
+  background-color: black;
   padding:25px;
-  border-top:2px dashed #2e4c83;
+  border-top:2px dashed black;
   box-sizing: border-box;
   display:flex;
+  color: white;
 }
 footer h4, footer h5, footer h6 {
   font-family: "Bebas Neue";
@@ -191,10 +192,10 @@ footer h4 {
 }
 
 .footer-feet {
-  background-color: #f8feff;
+  background-color: black;
   height:40px;
-  border-top: 2px dashed #2e4c83;
-
+  border-top: 2px dashed black;
+  color: white;
   display:flex;
   align-items: center;
   justify-content: space-between;

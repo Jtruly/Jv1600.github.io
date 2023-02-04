@@ -1,5 +1,5 @@
 .site-hero {
-    background-image: url("../assets/branding/wood_bkgrnd.jpg") ;
+    background-image: url("https://images.unsplash.com/photo-1560493676-04071c5f467b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFybXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60") ;
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -10,6 +10,7 @@
     margin: 0;
     font-size: 2cm;
   color: aliceblue;
+  text-shadow: 10px 5px 5px black;
 }
 .hero-text {
     text-align: center;
@@ -17,7 +18,7 @@
     font-weight: bold;
     font-style: italic;
     color: aliceblue;
-    text-shadow:10px 5px 5px rgb(0, 234, 255) ;
+
 }
 #row1 {
     display: grid;
@@ -36,4 +37,13 @@ height: 50vh;
 }
 img {
     height: 100%;
+}
+.btn-primary :hover {
+color: white;
+}
+.btn-primary {
+color: #e1a177;
+background-color: black;
+padding: 1px;
+
 }
