@@ -7,18 +7,31 @@ document.getElementById = ('lightbox');
 let lightboxCloser
 document.getElementById = ('lightboxCloser');
 
-function openlightbox() {
+function openLightbox() {
 lightboxContainer.classList.add('display');
 lightbox.src = this.src;
 }
 
-let beanImage = document.getElementById = ('bean3Image')
-beanImage.oneclick = openlightbox;
+let bean1 = document.getElementById = ('bean1');
+
+bean1.onclick = openLightbox;
+
+let bean2 = document.getElementById = ('bean2');
+
+bean2.onclick = openLightbox;
+
+let bean3 = document.getElementById = ('bean3');
+
+bean3.onclick = openLightbox;
+
+let bean4 = document.getElementById = ('bean4');
+
+bean4.onclick = openLightbox;
 
 function closelightbox() {
     lightboxContainer.classList.remove('display');
     lightbox.src = "";
 }
 
-lightboxBackground.oneclick = closeLightbox;
-lightboxCloser.oneclick = closelightbox;
+lightboxBackground.onclick = closeLightbox;
+lightboxCloser.onclick = closelightbox;
