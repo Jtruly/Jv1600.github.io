@@ -1,35 +1,43 @@
-let lightboxContainer = document.getElementById('lightboxContainer');
+ let lightboxContainer = document.getElementById('lightboxContainer');
 
-let lightboxBackground = document.getElementById('lightboxBackground');
+ let lightboxBackground = document.getElementById('lightboxBackground');
 
-let lightbox = document.getElementById('lightbox');
+ let lightbox = document.getElementById('lightbox');
 
-let lightboxCloser = document.getElementById('lightboxCloser');
+ let lightboxCloser = document.getElementById('lightboxCloser');
 
-function openLightbox() {
-lightboxContainer.classList.add('display');
-lightbox.src = this.src;
-}
+ function openLightbox() {
+  lightboxContainer.classList.add('display');
+  lightbox.src = this.src;
+  }
+// let bean1 = document.getElementById('bean1');
 
-let bean1 = document.getElementById('bean1');
+// bean1.onclick = openLightbox;
 
-bean1.onclick = openLightbox;
+// let bean2 = document.getElementById('bean2');
 
-let bean2 = document.getElementById('bean2');
+// bean2.onclick = openLightbox;
 
-bean2.onclick = openLightbox;
+// let bean3 = document.getElementById('bean3');
 
-let bean3 = document.getElementById('bean3');
+// bean3.onclick = openLightbox;
 
-bean3.onclick = openLightbox;
+// let bean4 = document.getElementById('bean4');
 
-let bean4 = document.getElementById('bean4');
+// bean4.onclick = openLightbox;
 
-bean4.onclick = openLightbox;
+ function closelightbox() {
+     lightboxContainer.classList.remove('display');
+     lightbox.src = "";
+ }
 
-function closelightbox() {
-    lightboxContainer.classList.remove('display');
-    lightbox.src = "";
+// Image Group
+let galleryImages = document.
+getElementsByClassName("bean");
+
+for(let i = 0;i < galleryImages.length; i++) {
+let galleryImage = galleryImages[i];
+galleryImage.onclick = openlightbox;
 }
 
 lightboxBackground.onclick = closelightbox;
