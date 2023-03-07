@@ -37,7 +37,7 @@ getElementsByClassName("bean");
 
 for(let i = 0;i < galleryImages.length; i++) {
 let galleryImage = galleryImages[i];
-galleryImage.onclick = openlightbox;
+galleryImage.onclick = openLightbox;
 }
 
 lightboxBackground.onclick = closelightbox;
