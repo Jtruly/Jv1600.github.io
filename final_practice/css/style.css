@@ -1,0 +1,39 @@
+body {
+    color: white;
+background-color: black;
+}
+.words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 50%;
+    grid-column-start: hori;
+}
+
+ul {
+    display:flex;
+}
+li {
+    list-style: none;
+}
+.hli {
+  background-color: rgb(29, 26, 26);
+  padding: 20px;
+}
+#netflix {
+    width: 10%;
+}
+#bckgrnd {
+    opacity: 50%;
+}
+nav {
+    background-image: url("../assets/images/netflix-s.avif") ;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+}
