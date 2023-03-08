@@ -1,11 +1,16 @@
+//  lightbox container Id
  let lightboxContainer = document.getElementById('lightboxContainer');
 
+// lightbox background Id
  let lightboxBackground = document.getElementById('lightboxBackground');
 
+//  lightbox Id
  let lightbox = document.getElementById('lightbox');
 
+//  lightbox close Id
  let lightboxCloser = document.getElementById('lightboxCloser');
 
+//  open lightbox function
  function openLightbox() {
   lightboxContainer.classList.add('display');
   lightbox.src = this.src;
@@ -26,6 +31,7 @@
 
 // bean4.onclick = openLightbox;
 
+// close lightbox function
  function closelightbox() {
      lightboxContainer.classList.remove('display');
      lightbox.src = "";
@@ -35,10 +41,12 @@
 let galleryImages = document.
 getElementsByClassName("bean");
 
+// gallery loop
 for(let i = 0;i < galleryImages.length; i++) {
 let galleryImage = galleryImages[i];
 galleryImage.onclick = openLightbox;
 }
 
+// lightbox click
 lightboxBackground.onclick = closelightbox;
 lightboxCloser.onclick = closelightbox;
