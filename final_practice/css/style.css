@@ -8,7 +8,7 @@ background-color: black;
     align-items: center;
 }
 img {
-    width: 50%;
+    width: 10%;
     grid-column-start: hori;
 }
 
@@ -31,7 +31,7 @@ li {
 nav {
     background-image: url("../assets/images/netflix-s.avif") ;
     background-size: cover;
-    height: 20vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
