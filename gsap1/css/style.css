@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(248, 165, 134);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.animation-container {
+    width: 85%;
+    margin: 10% auto;
+    display: flex;
+}
+.column {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.chucked {
+    width: 100px;
+    height:100px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.textbox {
+    width: 70%;
+}
