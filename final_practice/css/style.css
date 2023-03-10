@@ -1,15 +1,11 @@
 body {
     color: white;
 background-color: black;
+
 }
-.words {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 img {
     width: 10%;
-    grid-column-start: hori;
 }
 
 ul {
@@ -21,21 +17,62 @@ li {
 .hli {
   background-color: rgb(29, 26, 26);
   padding: 20px;
+  font-weight: 200;
 }
+.words {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 200;
+font-size: larger;
+}
+
 #netflix {
     width: 10%;
+    display: flex;
+    justify-content: flex-start;
 }
 #bckgrnd {
     opacity: 50%;
 }
 nav {
-    background: linear-gradient("to-bottom"), grey,;
-    background-image: url("../assets/images/netflix-s.avif") ;
+    background-image: linear-gradient(to bottom, rgb(57, 57, 57), rgb(0, 0, 0)) ;
+    background-image: url("../assets/images/netflix-s.avif");
     background-size: cover;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 100%;
+}
+#bckgrnd {
+opacity: 50%;
+background-image: url("../assets/images/netflix-s.avif");
 }
 
+.langbtn {
+background-color: black;
+color: white;
+padding: 10px;
+border-radius: 5px;
+    border-color: rgba(255, 0, 0, 0);
+}
+#signin {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgba(255, 0, 0, 0);
+}
+#getstarted {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgba(255, 0, 0, 0);
+}
+#email {
+    background: black;
+    color: grey;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgba(35, 35, 35, 0.894);
+}
